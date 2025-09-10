@@ -28,7 +28,7 @@ export function SalonCard({ salon }: SalonCardProps) {
   }
 
   const getTodayHours = () => {
-    const today = new Date().toLocaleLowerCase().slice(0, 3) // "mon", "tue", etc.
+    const today = new Date().toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase()
     const todayRu =
       {
         sun: "sunday",
