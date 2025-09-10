@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://localbook.uz/sitemap.xml
+
+# Disallow admin pages
+Disallow: /admin/
+Disallow: /api/
+Disallow: /auth/error
