@@ -10,7 +10,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    optimizeCss: true,
+    optimizeCss: false,
   },
   compress: true,
   poweredByHeader: false,
